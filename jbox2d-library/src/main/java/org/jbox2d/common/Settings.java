@@ -153,7 +153,7 @@ public class Settings {
    * The maximum linear velocity of a body. This limit is very large and is used to prevent
    * numerical problems. You shouldn't need to adjust this.
    */
-  public static float maxTranslation = 2.0f;
+  public static float maxTranslation = 8.0f;
   public static float maxTranslationSquared = (maxTranslation * maxTranslation);
 
   /**
